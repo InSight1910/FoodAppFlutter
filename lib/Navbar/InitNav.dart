@@ -19,7 +19,7 @@ class InitNav extends StatelessWidget {
           Expanded(child: Container()),
           TextButton(
             onPressed: () => {},
-            child: Text(
+            child: const Text(
               'Skip',
               style: TextStyle(
                 color: ColorsApp.gradientInit,

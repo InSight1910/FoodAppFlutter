@@ -57,6 +57,7 @@ class MyHomePage extends StatelessWidget {
           InitNav(),
           SizedBox(height: 50,),
           Carousel(),
+          SizedBox(height: 90,),
           Button(title: 'Create an account'),
           Button(title: 'Login', primary: false,),
         ],
